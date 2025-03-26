@@ -9,7 +9,7 @@ public class Program
 {
     public static void Main()
     {
-        Console.Title = "CheatEngineDetector | Made by https://github.com/GabryB03/";
+        Console.Title = "CheatEngineDetector | Made by https://github.com/ZygoteCode/";
 
         while (true)
         {
@@ -72,7 +72,7 @@ public class Program
         {
             string actualWindow = GetCaptionOfActiveWindow();
 
-            if (actualWindow != "CheatEngineDetector | Made by https://github.com/GabryB03/")
+            if (actualWindow != "CheatEngineDetector | Made by https://github.com/ZygoteCode/")
             {
                 string filteredWindow = Utils.FilterString(actualWindow);
 
